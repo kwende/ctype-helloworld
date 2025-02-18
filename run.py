@@ -2,7 +2,7 @@ import ctypes
 import numpy as np
 
 # Load the shared library
-lib = ctypes.CDLL('D:\\repos\\ctype-helloworld\\CTypeHelloWorld\\x64\\Debug\\Library.dll')
+lib = ctypes.CDLL('D:\\repos\\ctype-helloworld\\CTypeHelloWorld\\x64\\Release\\Library.dll')
 
 # Define the argument types and return type for the function
 lib.fill_array_with_ones.argtypes = [ctypes.POINTER(ctypes.c_int), ctypes.c_int]
